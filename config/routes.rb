@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :event_attendances
+  resources :event_attendances, only: [:new, :create]
   resources :events
   resources :users
   root 'events#index'
