@@ -24,17 +24,7 @@ class EventAttendancesController < ApplicationController
   # POST /event_attendances
   # POST /event_attendances.json
   def create
-    @event_attendance = EventAttendance.new(event_attendance_params)
-
-    respond_to do |format|
-      if @event_attendance.save
-        format.html { redirect_to @event_attendance, notice: 'Event attendance was successfully created.' }
-        format.json { render :show, status: :created, location: @event_attendance }
-      else
-        format.html { render :new }
-        format.json { render json: @event_attendance.errors, status: :unprocessable_entity }
-      end
-    end
+    @event_attendance = EventAttendance.create(event_attendance_params)
   end
 
   # PATCH/PUT /event_attendances/1
@@ -69,6 +59,6 @@ class EventAttendancesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def event_attendance_params
-      params.require(:event_attendance).permit(:attendee_id, :evnt_attended_id)
+      params.require(:event_attendance).permit(:attendee_id, :event_attended_id)
     end
 end
