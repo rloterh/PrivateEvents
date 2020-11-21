@@ -9,7 +9,7 @@ class UsersController < ApplicationController
   # GET /users/1.json
   def show
     redirect_to login_path unless logged_in?
-    @events_attended = current_user.events_attended
+    @events_attended = current_user.event_attended
     @upcoming_events = current_user.created_events.future
     @previous_events = current_user.created_events.past
   end
