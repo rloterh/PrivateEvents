@@ -1,24 +1,51 @@
-# README
+# RailsForm
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](https://img.shields.io/badge/Microverse-blueviolet)
+> This project is part of Microverse HTML/CSS Ruby on Rails module
 
-Things you may want to cover:
+## The Odin Project: RoR Associations project (Private Event)
 
-* Ruby version
+This project is a simple site whereby users can sign-up and then create an event. Other sign-up users can see all events (Past and Upcoming) and accept invitation to any upcoming event. This project demonstrates the application of Ruby on Rails Association and Active Record concept.  Example of similar concept is the [Eventbrite](http://www.eventbrite.com/) site.
 
-* System dependencies
 
-* Configuration
+## Setup Instructions & Getting Started
 
-* Database creation
+- [Clone](https://github.com/rloterh/PrivateEvents.git) this project
+- Install dependencies using the command **_bundle install_**
+- Run the command **_rails db:create_** to create database
+- Run the command **_rails db:migrate_** to configure database schema
+- Run the command **_rails s_** to start the Rails server
+- In your browser, navigate to  **_http://localhost:3000**
+  
 
-* Database initialization
+## Built Mainly With
 
-* How to run the test suite
+- Ruby 2.7.2
+- Rails 6.0.3.4
+- Simple Forms 5.0.3
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Authors
+👤 **Robert Loterh**
 
-* ...
+- Github: [@githubhandle](https://github.com/rloterh)
+- Twitter: [@twitterhandle](https://twitter.com/RLoterh )
+- Linkedin: [linkedin](https://www.linkedin.com/in/robert-loterh)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rloterh/PrivateEvents/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Project requirements created by [Odin Project](https://www.theodinproject.com/)
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
