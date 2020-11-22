@@ -77,3 +77,5 @@ Layout/EndOfLine:
   Enabled: false
 Layout/LineLength:
   Enabled: false
+Style/GuardClause:
+  Enabled: false
