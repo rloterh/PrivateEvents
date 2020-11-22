@@ -35,6 +35,7 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
+  gem 'simple_form', '>= 5.0.3'
   gem 'web-console', '>= 3.3.0'
 end
 

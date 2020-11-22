@@ -1,7 +1,5 @@
 class EventAttendancesController < ApplicationController
-  before_action :set_event_attendance, only: [:show, :edit, :update, :destroy]
-
-  # GET /event_attendances
+    # GET /event_attendances
   # GET /event_attendances.json
   def index
     @event_attendances = EventAttendance.all
