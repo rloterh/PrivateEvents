@@ -1,27 +1,8 @@
-<%= form_with(model: event, local: true) do |form| %>
-  <% if event.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(event.errors.count, "error") %> prohibited this event from being saved:</h2>
-
-      <ul>
-        <% event.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description %>
-  </div>
-
-  <div class="field">
-    <%= form.label :event_date %>
-    <%= form.date_select :event_date %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
+<h3>Create a new event</h3>
+<%= simple_form_for @event, :html => {:class => "bg-info mb-3 p-3"} do |f| %>
+  <%= f.error_notification %>
+  <%= f.input :title, label: "Event title", placeholder: "Add title here..." %>
+  <%= f.input :event_date, label: "Event date" %>
+  <%= f.input :description, label: "Event Description", placeholder: "Add event description here..." %>
+  <%= f.button :submit, class: "btn-success" %>
 <% end %>
