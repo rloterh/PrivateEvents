@@ -9,7 +9,8 @@ This project is a simple site whereby users can sign-up and then create an event
 
 | |
 |:-------------------------:|
-| <img width="800" alt="Home Page" src="app/assets/images/screenshot_1.jpg">  Home Page |  <img width="800" alt="Authorized user" src="app/assets/images/screenshot_2.jpg"> LoggedIn User |
+| <img width="800" alt="Home Page" src="app/assets/images/screenshot_1.jpg">  Home Page |
+| <img width="800" alt="Authorized user" src="app/assets/images/screenshot_2.jpg"> LoggedIn User |
 
 
 ## Setup Instructions & Getting Started
