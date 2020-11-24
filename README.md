@@ -5,7 +5,11 @@
 
 ## The Odin Project: RoR Associations project (Private Event)
 
-This project is a simple site whereby users can sign-up and then create an event. Other sign-up users can see all events (Past and Upcoming) and accept invitation to any upcoming event. This project demonstrates the application of Ruby on Rails Association and Active Record concept.  Example of similar concept is the [Eventbrite](http://www.eventbrite.com/) site.
+This project is a simple site whereby users can sign-up and then create an event. Other sign-up users can see all events (Past and Upcoming) and accept invitation to any upcoming event. This project demonstrates the application of Ruby on Rails Association and Active Record concept. See project [Live demo](https://git.heroku.com/nameless-peak-10668.git).
+
+| |
+|:-------------------------:|
+| <img width="800" alt="Home Page" src="app/assets/images/screenshot_1.jpg">  Home Page |  <img width="800" alt="Authorized user" src="app/assets/images/screenshot_2.jpg"> LoggedIn User |
 
 
 ## Setup Instructions & Getting Started
