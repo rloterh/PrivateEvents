@@ -21,6 +21,5 @@ test:
   database: db/test.sqlite3
 
 production:
+  <<: *default
   database: ror-private-event
-  adapter: postgresql
-  host: localhost
