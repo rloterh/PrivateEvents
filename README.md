@@ -5,7 +5,7 @@
 
 ## The Odin Project: RoR Associations project (Private Event)
 
-This project is a simple site whereby users can sign-up and then create an event. Other sign-up users can see all events (Past and Upcoming) and accept invitation to any upcoming event. This project demonstrates the application of Ruby on Rails Association and Active Record concept. See project [Live demo](https://dry-island-64451.herokuapp.com/).
+This project is a simple site whereby users can sign-up and then create an event. Other sign-up users can see all events (Past and Upcoming) and accept invitation to any upcoming event. This project demonstrates the application of Ruby on Rails Association and Active Record concept. See project [Live demo](https://tranquil-citadel-84558.herokuapp.com).
 
 | |
 |:-------------------------:|
