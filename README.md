@@ -14,7 +14,7 @@ Private Events platform is a simple site whereby users can sign-up and then crea
 | [Live Demo](#live-demo) |
 | [App Screenshot](#app-screenshot) |
 | [Built With](#built-with)   |
-| [Getting Started](#getting-started)   |
+| [Setup Instructions & Getting Started](#setup-instructions--getting-started)   |
 | [Testing](#testing)   |
 | [Authors](#authors)       |
 | [License](#license)       |
@@ -28,15 +28,15 @@ Private Events platform is a simple site whereby users can sign-up and then crea
 ## App Screenshot
 | |
 |:-------------------------:|
-| <img width="800" alt="Home Page" src="https://user-images.githubusercontent.com/12745474/102690552-197c3080-41fe-11eb-9017-ac10b248493e.jpg">  Home Page |
-| <img width="800" alt="Authorized user" src="https://user-images.githubusercontent.com/12745474/102691294-5139a700-4203-11eb-9d7a-ee3375a16e4b.jpg"> LoggedIn User |
+| <img width="800" alt="Home Page" src="https://user-images.githubusercontent.com/12745474/102690552-197c3080-41fe-11eb-9017-ac10b248493e.jpg"><p align="center">Home Page</p> |
+| <img width="800" alt="Authorized user" src="https://user-images.githubusercontent.com/12745474/102691294-5139a700-4203-11eb-9d7a-ee3375a16e4b.jpg"><p align="center">LoggedIn User</p> |
 
 
 ## Built With
 
 - Ruby 2.7.2
 - Rails 6.0.3.4
-- Simple Forms 5.0.3
+- SQLite 3.8.0
 
 
 
